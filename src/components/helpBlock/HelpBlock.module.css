@@ -1,0 +1,159 @@
+.helpBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/helpBlock/background.png') no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.container {
+  width: 80%;
+}
+
+.title {
+  margin-top: 14vh;
+  width: 100%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.4vh;
+  line-height: 6vh;
+  color: #FFFFFF;
+  margin-bottom: 6vh;
+}
+
+.cardsBlock {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vh;
+  justify-content: space-between;
+  margin-bottom: 6vh;
+}
+
+.card {
+  padding: 3.8vh 8.8vh;
+  min-width: 57vh;
+  width: 48%;
+  background: #FFFFFF;
+  box-shadow: 2.98998px 2.98998px 5.97996px rgba(0, 0, 0, 0.1), -2.98998px -2.98998px 5.97996px rgba(255, 255, 255, 0.2), inset 0px 0px 5.97996px rgba(0, 0, 0, 0.1);
+  border-radius: 4.8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.9vh;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8vh;
+  line-height: 3.3vh;
+  color: #414141;
+}
+
+.img {
+  width: 14.1vh;
+  height: 30.5vh;
+}
+
+.bottomBlock {
+  width: 100%;
+  padding: 5.8vh 18.9vh;
+  background: #FFFFFF;
+  box-shadow: 2.54096px 2.54096px 5.08191px rgba(0, 0, 0, 0.1), -2.54096px -2.54096px 5.08191px rgba(255, 255, 255, 0.2), inset 0px 0px 5.08191px rgba(0, 0, 0, 0.1);
+  border-radius: 3.8vh;
+  margin-bottom: 10vh;
+}
+
+.bottomBlockDescription {
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2vh;
+  line-height: 3.8vh;
+  color: #414141;
+}
+
+@media screen and (max-width: 1530px) {
+  .title {
+    margin-top: 16vh;
+    font-size: 3vh;
+    line-height: 4vh;
+  }
+
+  .img {
+    width: 10.1vh;
+    height: 23.5vh;
+  }
+
+  .card {
+    padding: 3.5vh 7vh;
+    min-width: 46vh;
+    gap: 5.5vh;
+  }
+
+  .bottomBlockDescription {
+    font-size: 2.7vh;
+    line-height: 3vh;
+  }
+
+  .bottomBlock {
+    padding: 5vh 8vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    padding: 3vh 5vh;
+    width: 100%;
+    min-width: 40vh;
+    max-width: 0;
+    background: #FFFFFF;
+    gap: 2.5vh;
+  }
+
+  .img {
+    width: 10.1vh;
+    height: 15.5vh;
+  }
+
+  .description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 3.3vh;
+    color: #414141;
+  }
+
+  .cardsBlock {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cardsBlock {
+    width: 100%;
+    gap: 4vh;
+    margin-bottom: 6vh;
+  }
+
+  .card {
+    padding: 3.4vh 4vh;
+    min-width: 100%;
+    width: 100%;
+    border-radius: 4.8vh;
+    gap: 6.9vh;
+  }
+}

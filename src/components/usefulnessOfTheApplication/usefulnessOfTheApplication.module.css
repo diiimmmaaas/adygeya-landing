@@ -1,0 +1,117 @@
+.usefulnessOfTheApplication {
+    width: 100vw;
+    height: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/backgrounds/secondSlideGreenBackground.svg");
+}
+
+.allItemsContainer {
+    width: 80%;
+}
+
+.upperText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.2vh;
+    line-height: 5.8vh;
+    color: #FFFFFF;
+    margin-bottom: 6vh;
+}
+
+.checkBoxContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.8vw;
+}
+
+.checkBox p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.7vh;
+    line-height: 1.57vw;
+    color: #FFFFFF;
+}
+
+.checkboxImage {
+    height: 5.4vh;
+}
+
+.check {
+    height: 2.75vh;
+    position: relative;
+    right: 4.2vh;
+}
+
+.checkBoxImageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.checkBoxImageContainer {
+    position: relative;
+    left: 2.5vh;
+}
+
+@media screen and (max-width: 1420px) {
+    .upperText {
+        font-size: 3.2vh;
+        line-height: 4vh;
+    }
+
+    .checkBox p {
+        font-size: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 1240px) {
+    .allItemsContainer {
+        width: 90%;
+    }
+
+    .checkBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .usefulnessOfTheApplication {
+        height: 60vh;
+        background-image: url("../../assets/backgrounds/secondSlideGreenBackgroundMobile.svg");
+        background-size: cover;
+    }
+
+    .upperText {
+        font-size: 3.5vh;
+        line-height: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .checkBox {
+        display: flex;
+        align-items: flex-start;
+        gap: 3vh;
+    }
+
+    .checkBox p {
+        font-size: 2.2vh;
+        line-height: 2vh;
+    }
+
+    .checkboxImage {
+        height: 4.8vh;
+    }
+
+    .check {
+        right: 3.8vh;
+    }
+}

@@ -1,0 +1,383 @@
+.footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 33vh;
+    background-color: #028959;
+    position: relative;
+    bottom: 0;
+}
+
+.footerContainer {
+    bottom: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7vh 0 7vh 0;
+}
+
+.logoContainer {
+    display: flex;
+    gap: 0.8vw;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.firstFooterContainer p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.15vh;
+    line-height: 1.4vw;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.copyright {
+    margin-bottom: 2vh;
+}
+
+.footerNavigationText {
+    display: flex;
+    gap: 1.4vw;
+    margin-bottom: 3vh;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.92vh;
+    line-height: 1vw;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.marketImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7vw;
+}
+
+.marketImages img:hover {
+    cursor: pointer;
+}
+
+.footerThirdContainer p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.92vh;
+    line-height: 1vw;
+    color: #FFFFFF;
+}
+
+.footerSocialNetwork {
+    display: flex;
+    gap: 0.7vw;
+    margin-bottom: 4.4vh;
+}
+
+.footerSocialNetwork img:hover {
+    cursor: pointer;
+}
+
+.footerContacts {
+    display: flex;
+    gap: 1.3vh;
+    margin-bottom: 1.3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSecondsContainer {
+    padding-right: 7vw;
+}
+
+.marketButton {
+    height: 4.9vh;
+}
+
+.AdygeyaLogo {
+    height: 5.8vh;
+}
+
+.socialLogoAdoptive {
+    height: 4vh;
+}
+
+.contactUsLogo {
+    height: 3.1vh;
+}
+
+.footerContainerMobile {
+    width: 90%;
+}
+
+.headerMobileContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.logoMobileContainer {
+    display: flex;
+    align-items: center;
+    gap: 1.6vh;
+}
+
+.adygeyaLogoMobile {
+    height: 5vh;
+}
+
+.logoMobileContainer p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2vh;
+    line-height: 3.3vh;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.socialMobileContainer {
+    display: flex;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.socialMobileContainer img {
+    height: 5vh;
+}
+
+.navigationMobileContainer {
+    margin-top: 5vh;
+}
+
+.headerMobileNavContainer, .lowerMobileNavContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.headerMobileNavContainer a, .lowerMobileNavContainer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 1.2vh;
+    color: #FFFFFF;
+}
+
+.headerMobileNavContainer {
+    margin-bottom: 4vh;
+}
+
+.lowerMobileNavContainer {
+    margin-bottom: 7vh;
+}
+
+.marketMobileContainer {
+    display: flex;
+    justify-content: center;
+    gap: 4.8vh;
+    margin-bottom: 4.4vh;
+}
+
+.marketMobileContainer img {
+    height: 4vh;
+}
+
+.contactMobileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMobileText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 1.2vh;
+    color: #FFFFFF;
+}
+
+.internalContactMobContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vh;
+}
+
+.mainContactMobContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4vh;
+}
+
+.copyrightMobileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.4vh;
+    gap: 0.8vh;
+}
+
+.copyrightMobileText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 2.2vh;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1580px) {
+    .firstFooterContainer p {
+        font-size: 1.8vh;
+        line-height: 1.4vw;
+    }
+
+    .footerNavigationText a {
+        font-size: 1.4vh;
+    }
+
+    .marketButton {
+        height: 4vh;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .AdygeyaLogo {
+        height: 4.4vh;
+    }
+
+    .firstFooterContainer p {
+        font-size: 1.6vh;
+        line-height: 1.4vw;
+    }
+
+    .footerNavigationText a {
+        font-size: 1.4vh;
+    }
+
+    .marketButton {
+        height: 4vh;
+    }
+
+    .footerThirdContainer p {
+        font-size: 1.4vh;
+    }
+
+    .contactUsLogo {
+        height: 2vh;
+    }
+
+    .socialLogoAdoptive {
+        height: 3vh;
+    }
+
+    .footerSecondsContainer {
+        padding-right: 4vw;
+    }
+
+    .footerNavigationText {
+        gap: 1.2vw;
+    }
+
+    .footer {
+        height: 28vh;
+    }
+
+    .copyright {
+        margin-bottom: 1.5vh;
+    }
+
+    .logoContainer {
+        margin-bottom: 2vh;
+    }
+
+    .footerSocialNetwork {
+        margin-bottom: 3.5vh;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .footer {
+        height: 71vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .adygeyaLogoMobile {
+        height: 4vh;
+    }
+
+    .logoMobileContainer p {
+        font-size: 1.7vh;
+        line-height: 3.3vh;
+    }
+
+    .copyrightMobileText {
+        font-size: 1.6vh;
+        line-height: 2.2vh;
+    }
+
+    .marketMobileContainer img {
+        height: 3vh;
+    }
+
+    .socialMobileContainer img {
+        height: 3vh;
+    }
+
+    .headerMobileNavContainer a, .lowerMobileNavContainer a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        line-height: 1.2vh;
+        color: #FFFFFF;
+    }
+
+    .contactMobileText {
+        font-size: 1.6vh;
+        line-height: 1.2vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .adygeyaLogoMobile {
+        height: 4vh;
+    }
+
+    .logoMobileContainer p {
+        font-size: 1.7vh;
+        line-height: 3.3vh;
+    }
+
+    .copyrightMobileText {
+        font-size: 1.6vh;
+        line-height: 2.2vh;
+    }
+
+    .marketMobileContainer img {
+        height: 3vh;
+    }
+
+    .socialMobileContainer img {
+        height: 3vh;
+    }
+
+    .headerMobileNavContainer a, .lowerMobileNavContainer a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        line-height: 1.2vh;
+        color: #FFFFFF;
+    }
+
+    .contactMobileText {
+        font-size: 1.6vh;
+        line-height: 1.2vh;
+    }
+}

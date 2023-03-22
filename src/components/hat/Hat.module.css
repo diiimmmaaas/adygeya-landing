@@ -1,0 +1,256 @@
+.hat {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5vh;
+}
+
+.hatContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.TextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.upperText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5.32vh;
+    line-height: 7.1vh;
+    color: #000000;
+}
+
+.middleText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.7vh;
+    line-height: 4.3vh;
+    color: #000000;
+
+}
+
+.lowerText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9vh;
+    line-height: 3.1vh;
+    color: #737373;
+    margin-bottom: 5vh;
+}
+
+.registrationButton {
+    font-family: 'Roboto';
+    background: #028959;
+    border-radius: 15px;
+    width: 18vw;
+    height: 7.2vh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4vh;
+    line-height: 133%;
+    text-align: center;
+    color: #FCFCFC;
+    transition: all 0.1s linear;
+    margin-bottom: 7.5vh;
+}
+
+.registrationButton:active {
+    transform: scale(98%);
+}
+
+.marketsContainer {
+    display: flex;
+    gap: 1.6vh;
+}
+
+.marketsContainer img:hover {
+    cursor: pointer;
+}
+
+.gifPlace {
+    width: 34vw;
+    height: 65vh;
+    background-color: #028959;
+    color: white;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hatGif {
+    width: 34vw;
+    height: 65vh;
+}
+
+.marketButton {
+    height: 4.9vh;
+}
+
+@media screen and (max-width: 1580px) {
+    .gifPlace {
+        width: 34vw;
+        height: 50vh;
+    }
+
+    .hatGif {
+        width: 34vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .upperText {
+        font-size: 4.5vh;
+    }
+
+    .middleText {
+        font-size: 2.2vh;
+    }
+
+    .lowerText {
+        font-size: 1.5vh;
+    }
+
+    .registrationButton {
+        font-size: 1.9vh;
+    }
+
+    .hatGif {
+        width: 30vw;
+        height: 40vh;
+    }
+
+    .gifPlace {
+        width: 30vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .hat {
+        height: 80%;
+        margin-top: 2vh;
+    }
+
+    .hatContainer {
+        width: 90%;
+    }
+
+    .gifPlace {
+        width: 80%;
+        height: 50vh;
+        background-color: #028959;
+        color: white;
+        border-radius: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hatGif {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .upperText {
+        font-size: 3.4vh;
+        line-height: 5vh;
+        margin-top: 5vh;
+    }
+
+    .middleText {
+        font-size: 2.2vh;
+        line-height: 3.5vh;
+    }
+
+    .lowerText {
+        font-size: 1.6vh;
+        line-height: 3.1vh;
+        margin-bottom: 5vh;
+    }
+
+    .registrationButton {
+        border-radius: 18px;
+        width: 60vw;
+        height: 6.8vh;
+        font-size: 2.2vh;
+        margin-bottom: 5vh;
+    }
+
+    .marketButton {
+        height: 4.5vh;
+    }
+
+    .marketsContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .gifPlace {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .hatGif {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gifPlace {
+        width: 100%;
+        height: 40vh;
+        background-color: #028959;
+        color: white;
+        border-radius: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hatGif {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .marketButton {
+        height: 3.6vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gifPlace {
+        width: 100%;
+        height: 40vh;
+        background-color: #028959;
+        color: white;
+        border-radius: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hatGif {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .marketButton {
+        height: 3.6vh;
+    }
+}
+

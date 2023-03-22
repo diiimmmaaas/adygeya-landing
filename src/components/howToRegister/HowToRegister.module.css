@@ -1,0 +1,127 @@
+.howToRegister {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../../assets/howToRegister/background.png') no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  margin-bottom: 127px;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 8vh;
+  width: 100%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.4vh;
+  line-height: 6vh;
+  color: #414141;
+  margin-bottom: 10vh;
+}
+
+.componentImage {
+  width: 100%;
+
+}
+
+.stepsBlock {
+  position: relative;
+  width: 80%;
+}
+
+.fifthPoint, .fourthPoint,  .thirdPoint, .secondPoint, .firstPoint {
+  position: absolute;
+  height: 7.5vh;
+  width: 9.5vh;
+}
+
+.firstPoint, .thirdPoint {
+  left: -3.4%;
+}
+
+.secondPoint, .fourthPoint, .fifthPoint {
+  right: -3%;
+}
+
+.firstPoint {
+  top: 27.4%;
+}
+
+.thirdPoint {
+  top: 66.4%;
+}
+
+.secondPoint {
+  top: 8.3%;
+}
+
+.fourthPoint {
+  top: 47.2%;
+}
+
+.fifthPoint {
+  top: 86.2%;
+}
+
+@media screen and (min-width: 1420px) {
+  .stepsBlock {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .title {
+    font-size: 3.8vh;
+    line-height: 5vh;
+  }
+
+  .stepsBlock {
+    width: 80%;
+  }
+
+  .fifthPoint, .fourthPoint, .thirdPoint, .secondPoint, .firstPoint {
+    height: 6.5vh;
+    width: 8.5vh;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .howToRegister {
+    margin-bottom: 7.6vh;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 7vh;
+  }
+
+  .stepsBlock {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 912px) {
+  .fifthPoint, .fourthPoint, .thirdPoint, .secondPoint, .firstPoint {
+    height: 3.5vh;
+    width: 5.5vh;
+  }
+
+  .firstPoint, .thirdPoint {
+    left: -5%;
+  }
+
+  .secondPoint, .fourthPoint, .fifthPoint {
+    right: -5%;
+  }
+}

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import styles from "./SuitsBlock.module.css";
-import oEllipse from "../../assets/suitBlock/ellipse.svg";
-import leisureIcon from "../../assets/suitBlock/leisureIcon.svg";
-import attractionIcon from "../../assets/suitBlock/attractionIcon.svg";
-import foodIcon from "../../assets/suitBlock/foodIcon.svg";
-import mountIcon from "../../assets/suitBlock/mountIcon.svg";
+import oEllipse from "../../assets/suitBlock/ellipse.webp";
+import leisureIcon from "../../assets/suitBlock/leisureIcon.webp";
+import attractionIcon from "../../assets/suitBlock/attractionIcon.webp";
+import foodIcon from "../../assets/suitBlock/foodIcon.webp";
+import mountIcon from "../../assets/suitBlock/mountIcon.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,18 +1,18 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import footerLogo from "../../assets/footer/footerLogo.svg";
+import footerLogo from "../../assets/footer/footerLogo.webp";
 
-import googleStore from "../../assets/footer/google_play_button.svg";
-import appStore from "../../assets/footer/app_store_button.svg";
-import ruStore from "../../assets/footer/ru_store_button.svg";
+import googleStore from "../../assets/footer/google_play_button.webp";
+import appStore from "../../assets/footer/app_store_button.webp";
+import ruStore from "../../assets/footer/ru_store_button.webp";
 
-import instaLogo from "../../assets/footer/footerInstaLogo.svg";
-import vkLogo from "../../assets/footer/footerVkLogo.svg";
-import tgLogo from "../../assets/footer/footerTgLogo.svg";
-import whatsLogo from "../../assets/footer/footerWhatsUpLogo.svg";
+import instaLogo from "../../assets/footer/footerInstaLogo.webp";
+import vkLogo from "../../assets/footer/footerVkLogo.webp";
+import tgLogo from "../../assets/footer/footerTgLogo.webp";
+import whatsLogo from "../../assets/footer/footerWhatsUpLogo.webp";
 
-import phoneCall from "../../assets/footer/footerPhoneCall.svg";
-import emailMessage from "../../assets/footer/footerEmailMessager.svg";
+import phoneCall from "../../assets/footer/footerPhoneCall.webp";
+import emailMessage from "../../assets/footer/footerEmailMessager.webp";
 import { useMediaQuery } from "react-responsive";
 import { Link } from "react-scroll";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./registerCompany.module.css";
 import Checkbox from "react-custom-checkbox";
-import checkMark from "../../assets/main/greenCheckMark.svg";
+import checkMark from "../../assets/main/greenCheckMark.webp";
 
 import desktopGif from "../../assets/howToRegister/desktopFooterGif.gif";
 

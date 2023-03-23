@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Hat.module.css";
-import googleStore from "../../assets/footer/google_play_button.svg";
-import appStore from "../../assets/footer/app_store_button.svg";
-import ruStore from "../../assets/footer/ru_store_button.svg";
+import googleStore from "../../assets/footer/google_play_button.webp";
+import appStore from "../../assets/footer/app_store_button.webp";
+import ruStore from "../../assets/footer/ru_store_button.webp";
 import phoneGif from "../../assets/header/hatAnimation.gif";
 import { useMediaQuery } from "react-responsive";
 

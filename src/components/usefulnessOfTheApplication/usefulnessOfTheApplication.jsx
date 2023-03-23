@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./usefulnessOfTheApplication.module.css";
-import squareCheckBox from "../../assets/main/usefulnessApp/checkboxQuadrate.svg";
-import check from "../../assets/header/check.svg";
+import squareCheckBox from "../../assets/main/usefulnessApp/checkboxQuadrate.webp";
+import check from "../../assets/header/check.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

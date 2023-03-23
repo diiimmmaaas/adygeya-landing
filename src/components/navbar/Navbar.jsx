@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import styles from "./Navbar.module.css";
-import logo from "../../assets/header/logo_img.svg";
-import whatsupIcon from "../../assets/header/whatsupIcon.svg";
-import phoneHandset from "../../assets/header/phoneHandset.svg";
-import burger from "../../assets/header/burgerNavbar.svg";
+import logo from "../../assets/header/logo_img.webp";
+import whatsupIcon from "../../assets/header/whatsupIcon.webp";
+import phoneHandset from "../../assets/header/phoneHandset.webp";
+import burger from "../../assets/header/burgerNavbar.webp";
 import {useMediaQuery} from "react-responsive";
 import {Link} from "react-scroll";
-import cross from '../../assets/header/cross.svg'
+import cross from '../../assets/header/cross.webp'
 
 const Navbar = () => {
 

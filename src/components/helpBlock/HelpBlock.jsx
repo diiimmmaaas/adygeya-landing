@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./HelpBlock.module.css";
-import media from "../../assets/helpBlock/media.svg";
-import chats from "../../assets/helpBlock/chats.svg";
-import blocks from "../../assets/helpBlock/blocks.svg";
-import graphics from "../../assets/helpBlock/graphics.svg";
+import media from "../../assets/helpBlock/media.webp";
+import chats from "../../assets/helpBlock/chats.webp";
+import blocks from "../../assets/helpBlock/blocks.webp";
+import graphics from "../../assets/helpBlock/graphics.webp";
 
 const cardsData = [
   {

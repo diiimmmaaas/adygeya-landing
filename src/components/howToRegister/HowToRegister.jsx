@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./HowToRegister.module.css";
-import snakeImg from "../../assets/howToRegister/snakeWithText.svg";
-import greenPoint from "../../assets/howToRegister/greenPoint.svg";
+import snakeImg from "../../assets/howToRegister/snakeWithText.webp";
+import greenPoint from "../../assets/howToRegister/greenPoint.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
